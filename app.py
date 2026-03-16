@@ -5,10 +5,10 @@ import os
 app = Flask(__name__)
 
 conn = pymysql.connect(
-    host="root.mysql.database.azure.com",
-    user="userroot",
-    password="Rohit@123",
-    database="newdatabase",
+    host="prem11.mysql.database.azure.com",
+    user="azureuser",
+    password="PremChirag@2311",
+    database="gtu",
     port=3306,
     ssl={"ssl": {}}
 )
